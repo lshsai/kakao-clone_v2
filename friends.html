@@ -10,6 +10,7 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
@@ -40,7 +41,7 @@
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friend__column">
             <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
@@ -58,7 +59,7 @@
         <h5 class="friends__title">Plus friend</h5>
         <div class="friends__friend friend friend">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name"> Plus friend </span>
             </div>
@@ -68,8 +69,8 @@
       <ul class="friends__list">
         <h5 class="friends__title">Friends 14</h5>
         <li class="friends__friend friend friend--lg">
-          <div class="friend___column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Nicolas Serrano
@@ -80,14 +81,13 @@
             </div>
           </div>
           <div class="friend__column">
-            <div class="friend__now-listenig">
+            <div class="friend__now-listening">
               <span>
                 FTILAND (FT NomadCoders)
               </span>
               <i class="fas fa-play"></i>
             </div>
           </div>
-          <div class="friend__column"></div>
         </li>
       </ul>
     </main>
